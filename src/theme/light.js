@@ -1,3 +1,10 @@
+import { grey } from "@material-ui/core/colors";
 export default {
-  type: "light"
+  palette: {
+    type: "light",
+    primary: {
+      main: grey[300],
+      contrastText: "#252525"
+    }
+  }
 };
