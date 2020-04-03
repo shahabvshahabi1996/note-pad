@@ -13,21 +13,21 @@ export default function(state = INITIAL, action) {
     case SET_THEME: {
       return {
         ...state,
-        theme: action.payloda
+        theme: action.payload
       };
     }
 
     case SET_LANG: {
       return {
         ...state,
-        lang: action.payloda
+        lang: action.payload
       };
     }
 
     case SET_DIR: {
       return {
         ...state,
-        dir: action.payloda
+        dir: action.payload
       };
     }
 
